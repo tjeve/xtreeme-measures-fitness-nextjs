@@ -1,6 +1,7 @@
 # Xtreeme Measures Fitness
 
-A Webapp built for Xtreeme Measures Fitness, an up and coming Fitness company in Houston, TX.
+### A Webapp built for Xtreeme Measures Fitness, an up and coming Fitness company in Houston, TX.
+
 
 This webapp currently uses the following technologies:
 * [Next.js](https://nextjs.org/)
