@@ -1,14 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Navb from '../components/Nav.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from '../components/layout'
+import Image from 'next/Image'
+
 
 export default function Home() {
   return (
+    <Layout>
     <div className="container">
       <Head>
         <title>Xtreeme Measures Fitness</title>
         <link rel="icon" href="/faviconLogo.ico"/>
       </Head>
-
+      <Navb/>
       <main>
         <h1 className='title'>
           Read{' '}
@@ -54,12 +60,19 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sometimes You have to take{' '}
-          <img src="public/images/xtreeme_logo2.png" alt="Xtreeme Fitness Logo" className="logo" />
+          Sometimes you have to take{'  '}
+          <Link href='/'>
+            <Image
+                src="/images/xtreeme_logo2_cropped.png"
+                alt="xtreeme fitness logo" 
+                width={100}
+                height={50}
+              />
+          </Link>
         </a>
       </footer>
 
@@ -194,7 +207,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      {/* <style jsx global>{`
         html,
         body {
           padding: 0;
@@ -207,7 +220,8 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}</style> */}
     </div>
+    </Layout>
   )
 }
