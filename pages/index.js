@@ -4,6 +4,7 @@ import Navb from '../components/Nav.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout'
 import Image from 'next/Image'
+import Hero from '../components/hero.js'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/faviconLogo.ico"/>
       </Head>
       <Navb/>
+      <Hero/>
       <main>
         <h1 className='title'>
           Read{' '}
