@@ -66,15 +66,16 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sometimes you have to take{'  '}
+          It takes {'  '}
           <Link href='/'>
             <Image
                 src="/images/xtreeme_logo2_cropped.png"
                 alt="xtreeme fitness logo" 
-                width={100}
-                height={50}
+                width={200}
+                height={100}
               />
           </Link>
+          to get Extreme RESULTS
         </a>
       </footer>
 
