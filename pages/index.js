@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout'
 import Image from 'next/Image'
 import Hero from '../components/hero.js'
+import Subscribe from '../components/subscribe'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Navb/>
       <Hero/>
+      <Subscribe/>
       <main>
         <h1 className='title'>
           Read{' '}

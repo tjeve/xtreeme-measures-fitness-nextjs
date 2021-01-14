@@ -1,12 +1,13 @@
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Image from 'next/Image'
-// import Layout from '../components/layout'
+import Layout from '../components/layout'
 import Button from 'react-bootstrap/Button'
+
 
 
 function hero () {
     return(
-    
+    <Layout>
         <Jumbotron>
             <Image
                 src="/images/xtreeme_fitness_insta_screenshots/Screen Shot 2021-01-07 at 9.39.21 PM.png"
@@ -23,7 +24,7 @@ function hero () {
                 <Button variant="primary">Subscribe</Button>
             </p>
         </Jumbotron>
-    
+    </Layout>
     )
 
 }
