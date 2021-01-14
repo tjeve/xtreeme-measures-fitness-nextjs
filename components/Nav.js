@@ -26,23 +26,23 @@ function Navb () {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Link href='/about'><a><Nav.Link href="#sign_up">About</Nav.Link></a></Link>
-            <Nav.Link href="#personal_training">Personal Training</Nav.Link>
-            <Nav.Link href="#bootcamp">Bootcamp</Nav.Link>
-            <Nav.Link href="#online_training">Online Training</Nav.Link>
-            <Nav.Link href="#merch">Merch</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+            <Link href='/about'><a><Nav.Link href="#about">About</Nav.Link></a></Link>
+            <Link href='/personal_training'><a><Nav.Link href="#personal_training">Personal Training</Nav.Link></a></Link>
+            <Link href='/bootcamp'><a><Nav.Link href="#bootcamp">Boot Camp</Nav.Link></a></Link>
+            <Link href='/online_training'><a><Nav.Link href="#online_training">Online Training</Nav.Link></a></Link>
+            <Link href='/merch'><a><Nav.Link href="merch">Merch</Nav.Link></a></Link>
+            {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
-          <Nav>
+          {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
 
