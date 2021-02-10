@@ -7,3 +7,4 @@ This webapp currently uses the following technologies:
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
 * [React-Bootstrap](https://react-bootstrap.github.io/)
+* [Masonry](https://https://masonry.desandro.com/)

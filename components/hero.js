@@ -4,7 +4,6 @@ import Layout from '../components/layout'
 import Button from 'react-bootstrap/Button'
 
 
-
 function hero () {
     return(
     <Layout>
